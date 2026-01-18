@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|76800000|107290000|494747f8-17d1-4514-9674-0af699c4dcb3|08569152-6d01-4353-af3a-730b6c57e95d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|76800000|88750000|494747f8-17d1-4514-9674-0af699c4dcb3|bfd159d8-0e26-4900-8292-b44f276fd98d",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -741,6 +750,14 @@
     [
       "0b312026-5c2f-456d-89af-a3d6235aec4b",
       "DCDC_5V"
+    ],
+    [
+      "cf3048d6-6c19-48ca-92f1-9a241b2cbc2e",
+      "to_C610_ESC"
+    ],
+    [
+      "c5f3e253-2aa6-4b9d-8f9a-efa7be1d4c14",
+      "to_C610_ESC1"
     ]
   ],
   "text_variables": {}

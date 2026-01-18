@@ -2882,16 +2882,36 @@
 		(uuid "5bde4cbd-92cd-4a2f-b056-87ad031d25fa")
 	)
 	(no_connect
+		(at 44.45 111.76)
+		(uuid "700f2ab3-ebf9-4077-bb0c-108d9227e609")
+	)
+	(no_connect
 		(at 44.45 93.98)
 		(uuid "8306e745-b91d-4479-a582-9e0f2aadc383")
+	)
+	(no_connect
+		(at 44.45 116.84)
+		(uuid "8ddea4a4-8332-4cae-89d5-40d9d33671f6")
+	)
+	(no_connect
+		(at 44.45 49.53)
+		(uuid "9774f624-93dc-4d4a-90dc-02f4f80cb6b0")
 	)
 	(no_connect
 		(at 44.45 104.14)
 		(uuid "abb46411-e166-4ea6-8476-45e4dd2d60e9")
 	)
 	(no_connect
+		(at 44.45 46.99)
+		(uuid "b6bfd182-f5ad-421f-bb9a-1614b05c92c9")
+	)
+	(no_connect
 		(at 44.45 91.44)
 		(uuid "b757c54b-e45e-4b34-8489-4027ceb7b71a")
+	)
+	(no_connect
+		(at 49.53 44.45)
+		(uuid "b99a1fa1-21e9-412f-a5d0-a63032ca82b2")
 	)
 	(no_connect
 		(at 44.45 54.61)
@@ -2902,12 +2922,24 @@
 		(uuid "cb9645d4-7944-42da-a41b-501043bba412")
 	)
 	(no_connect
+		(at 44.45 109.22)
+		(uuid "d5905152-9291-49e7-a9fc-5a793161da69")
+	)
+	(no_connect
 		(at 44.45 81.28)
 		(uuid "e35f6a1f-fefb-4cd4-9f2b-cdab1031c157")
 	)
 	(no_connect
+		(at 44.45 31.75)
+		(uuid "eac94654-40e8-43b9-83d6-acc9acf73667")
+	)
+	(no_connect
 		(at 113.03 162.56)
 		(uuid "ee67d754-c7a4-409d-a8bf-cc5d048bddc3")
+	)
+	(no_connect
+		(at 44.45 114.3)
+		(uuid "f4856444-4867-43e5-89b8-242f8e55ec3d")
 	)
 	(wire
 		(pts
@@ -3951,6 +3983,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 241.3 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2334b2a2-a8b8-477d-bfb2-90dc982238d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4443 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "24V_POW_P"
 		(shape output)
 		(at 143.51 85.09 0)
@@ -4149,6 +4203,50 @@
 			)
 		)
 	)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 267.97 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39e8e578-ac4d-4133-8048-8302569620d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.328 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 241.3 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fb0a19d-762b-4d41-b22b-5c0b252be71a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4443 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 167.64 166.37 0)
@@ -4211,6 +4309,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 267.97 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "568c0224-dba4-42ba-a869-3855ed59f890")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.328 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4523,6 +4643,72 @@
 			)
 		)
 	)
+	(global_label "CAN-"
+		(shape bidirectional)
+		(at 267.97 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91db88d9-31a6-428c-95e1-c49853e44ea5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.328 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN+"
+		(shape bidirectional)
+		(at 267.97 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b5eafbf-c30c-454a-8e15-8634f4285835")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.328 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24V"
+		(shape input)
+		(at 241.3 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af9f3c90-926f-472d-98b5-7c586a16eee3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.8072 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V_ELEC_P"
 		(shape input)
 		(at 90.17 171.45 180)
@@ -4629,6 +4815,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24V"
+		(shape input)
+		(at 241.3 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d116328f-0223-4cc6-9565-b1efaf35b7da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.8072 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10460,6 +10668,170 @@
 			(project "motorBoardCan"
 				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 93.98)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5f3e253-2aa6-4b9d-8f9a-efa7be1d4c14")
+		(property "Sheetname" "to_C610_ESC1"
+			(at 241.3 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "to_C610_ESC.kicad_sch"
+			(at 241.3 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "24V" input
+			(at 241.3 96.52 180)
+			(uuid "055b154f-bdd6-4cad-b93d-c9cd97c8aa62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN+" bidirectional
+			(at 267.97 97.79 0)
+			(uuid "7e766ea6-e216-4a01-8925-07e188e63e85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 267.97 100.33 0)
+			(uuid "664a10a2-21b0-4d9c-9030-e9dd072ee495")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 241.3 100.33 180)
+			(uuid "9d7e3544-f11e-4b69-9519-7369c740fcda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "motorBoardCan"
+				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 72.39)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf3048d6-6c19-48ca-92f1-9a241b2cbc2e")
+		(property "Sheetname" "to_C610_ESC"
+			(at 241.3 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "to_C610_ESC.kicad_sch"
+			(at 241.3 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "24V" input
+			(at 241.3 74.93 180)
+			(uuid "c54da793-f982-4494-8f5a-07709b9bd611")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN+" bidirectional
+			(at 267.97 76.2 0)
+			(uuid "ebab6f6e-58d0-4158-a003-f75614d0d3d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 267.97 78.74 0)
+			(uuid "b1f739fa-2438-4517-9f8c-bd385c004367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 241.3 78.74 180)
+			(uuid "e0e80daa-b438-43d2-b4cc-09be949683d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "motorBoardCan"
+				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
+					(page "3")
 				)
 			)
 		)
