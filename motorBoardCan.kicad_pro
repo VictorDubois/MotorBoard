@@ -456,6 +456,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -740,14 +741,6 @@
     [
       "0b312026-5c2f-456d-89af-a3d6235aec4b",
       "DCDC_5V"
-    ],
-    [
-      "2c785302-4ea3-4b29-a8d4-5d6042c4ef96",
-      "H-Bridge"
-    ],
-    [
-      "610bfd44-28ee-45a3-8573-89bbc0aecc2b",
-      "H-Bridge1"
     ]
   ],
   "text_variables": {}
