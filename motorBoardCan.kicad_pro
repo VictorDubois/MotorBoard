@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|120730963|63389224|b6b19463-3f07-45ef-a9e0-0f8f6c9c6d77|c9b103e1-fdf3-44cc-b634-18aa66de384d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|76800000|107290000|494747f8-17d1-4514-9674-0af699c4dcb3|08569152-6d01-4353-af3a-730b6c57e95d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|76800000|88750000|494747f8-17d1-4514-9674-0af699c4dcb3|bfd159d8-0e26-4900-8292-b44f276fd98d",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -516,7 +503,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/3/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -540,7 +527,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -564,7 +551,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -697,6 +684,18 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -762,6 +761,22 @@
     [
       "c5f3e253-2aa6-4b9d-8f9a-efa7be1d4c14",
       "to_C610_ESC1"
+    ],
+    [
+      "7cd63ed4-9d08-4a3c-b840-01380bea2ccd",
+      "transistor"
+    ],
+    [
+      "b5efbc96-45ef-4150-8abb-67059292877d",
+      "transistor1"
+    ],
+    [
+      "f360015d-db4b-4b97-b344-ca2e891c0a42",
+      "transistor2"
+    ],
+    [
+      "7f9f6e98-21bf-497f-b591-15edd85c287f",
+      "transistor3"
     ]
   ],
   "text_variables": {}
